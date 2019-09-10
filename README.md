@@ -1,6 +1,6 @@
 [![npm](https://img.shields.io/npm/v/react-calendar.svg)](https://www.npmjs.com/package/react-calendar) ![downloads](https://img.shields.io/npm/dt/react-calendar.svg) ![build](https://img.shields.io/travis/wojtekmaj/react-calendar/master.svg) ![dependencies](https://img.shields.io/david/wojtekmaj/react-calendar.svg) ![dev dependencies](https://img.shields.io/david/dev/wojtekmaj/react-calendar.svg) [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 
-# React-Calendar
+# Short-React-Calendar
 
 <div align="center">
   <img width="436" heigth="398" src="https://wojtekmaj.home.pl/projekty/react-calendar/react-calendar.jpg">
@@ -46,7 +46,7 @@ Here's an example of basic usage:
 
 ```js
 import React, { Component } from 'react';
-import Calendar from 'react-calendar';
+import Calendar from 'short-react-calendar';
 
 class MyApp extends Component {
   state = {
@@ -58,10 +58,12 @@ class MyApp extends Component {
   render() {
     return (
       <div>
-        <Calendar
-          onChange={this.onChange}
-          value={this.state.date}
-        />
+       <Calendar
+              onChange={this.onChange}
+              value={value}
+              calendarType="US"
+              oneWeekCalendar={true}
+            />
       </div>
     );
   }

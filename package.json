@@ -1,7 +1,7 @@
 {
-  "name": "react-calendar",
-  "version": "2.19.2",
-  "description": "Ultimate calendar for your React app.",
+  "name": "short-react-calendar",
+  "version": "1.0.0",
+  "description": "Clone from https://github.com/wojtekmaj/react-calendar.git. Support to display one week calendar that contains current day. Support expand / colapse calendar.",
   "main": "dist/entry.js",
   "source": "src/entry.js",
   "types": "./index.d.ts",
@@ -36,10 +36,14 @@
     "react"
   ],
   "author": {
-    "name": "Wojciech Maj",
-    "email": "kontakt@wojtekmaj.pl"
+    "name": "Hoa Dang",
+    "email": "hoadv106@gmail.com"
   },
   "contributors": [
+    {
+      "name": "Wojciech Maj",
+      "email": "kontakt@wojtekmaj.pl"
+    },
     {
       "name": "Andriy Kuzyk"
     },
@@ -107,6 +111,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/wojtekmaj/react-calendar.git"
+    "url": "https://github.com/hoadv/react-calendar.git"
   }
 }
