@@ -1,6 +1,6 @@
 {
   "name": "short-react-calendar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Clone from https://github.com/wojtekmaj/react-calendar.git. Support to display one week calendar that contains current day. Support expand / colapse calendar.",
   "main": "dist/entry.js",
   "source": "src/entry.js",

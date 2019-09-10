@@ -16,7 +16,8 @@
     "prop-types": "^15.6.2",
     "react": "^16.5.0",
     "react-calendar": "latest",
-    "react-dom": "^16.5.0"
+    "react-dom": "^16.5.0",
+    "short-react-calendar": "^1.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",

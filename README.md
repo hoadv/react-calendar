@@ -16,8 +16,8 @@ Ultimate calendar for your React app.
 * No moment.js needed
 
 ## tl;dr
-* Install by executing `npm install react-calendar` or `yarn add react-calendar`.
-* Import by adding `import Calendar from 'react-calendar'`.
+* Install by executing `npm install short-react-calendar` or `yarn add short-react-calendar`.
+* Import by adding `import Calendar from 'short-react-calendar'`.
 * Use by adding `<Calendar />`. Use `onChange` prop for getting new values.
 
 ## Demo
@@ -40,7 +40,7 @@ If you need to support legacy browsers like Internet Explorer 10, you will need 
 
 ### Installation
 
-Add React-Calendar to your project by executing `npm install react-calendar` or `yarn add react-calendar`.
+Add React-Calendar to your project by executing `npm install short-react-calendar` or `yarn add short-react-calendar`.
 
 ### Usage
 
@@ -72,11 +72,11 @@ class MyApp extends Component {
 }
 ```
 
-Check the [sample directory](https://github.com/wojtekmaj/react-calendar/tree/master/sample) in this repository for a full working example. For more examples and more advanced use cases, check [Recipes](https://github.com/wojtekmaj/react-calendar/wiki/Recipes) in React-Calendar Wiki.
+Check the [sample directory](https://github.com/hoadv/react-calendar/tree/master/sample) in this repository for a full working example. For more examples and more advanced use cases, check [Recipes](https://github.com/hoadv/react-calendar/wiki) in Short-React-Calendar Wiki.
 
 ### Custom styling
 
-If you don't want to use default React-Calendar styling to build upon it, you can import React-Calendar by using `import Calendar from 'react-calendar/dist/entry.nostyle';` instead.
+If you don't want to use default React-Calendar styling to build upon it, you can import React-Calendar by using `import Calendar from 'short-react-calendar/dist/entry.nostyle';` instead.
 
 ## User guide
 
@@ -90,7 +90,7 @@ Displays a complete, interactive calendar.
 |----|----|----|----|
 |activeStartDate|The beginning of a period that shall be displayed by default when no value is given.|(today)|`new Date(2017, 0, 1)`|
 |calendarType|Type of calendar that should be used. Can be `"ISO 8601"`, `"US"`, `"Arabic"`, or `"Hebrew"`. Setting to `"US"` or `"Hebrew"` will change the first day of the week to Sunday. Setting to `"Arabic"` will change the first day of the week to Saturday. Setting to `"Arabic"` or `"Hebrew"` will make weekends appear on Friday to Saturday.|Type of calendar most commonly used in a given locale|`"ISO 8601"`|
-|className|Class name(s) that will be added along with `"react-calendar"` to the main React-Calendar `<div>` element.|n/a|<ul><li>String: `"class1 class2"`</li><li>Array of strings: `["class1", "class2 class3"]`</li></ul>|
+|className|Class name(s) that will be added along with `"short-react-calendar"` to the main React-Calendar `<div>` element.|n/a|<ul><li>String: `"class1 class2"`</li><li>Array of strings: `["class1", "class2 class3"]`</li></ul>|
 |formatMonth|Function called to override default formatting of month names. Can be used to use your own formatting function.|(default formatter)|`(locale, date) => formatDate(date, 'MMM')`|
 |formatMonthYear|Function called to override default formatting of month and year in the top navigation section. Can be used to use your own formatting function.|(default formatter)|`(locale, date) => formatDate(date, 'MMMM YYYY')`|
 |formatShortWeekday|Function called to override default formatting of weekday names. Can be used to use your own formatting function.|(default formatter)|`(locale, date) => formatDate(date, 'dd')`|
@@ -156,22 +156,17 @@ The MIT License.
 <table>
   <tr>
     <td>
-      <img src="https://github.com/wojtekmaj.png?s=100" width="100">
+      <img src="https://avatars1.githubusercontent.com/u/8998946?s=400&u=7085cc5a1b960d286eb41899e13ab61e9cbedf70&v=4" width="100">
     </td>
     <td>
-      Wojciech Maj<br />
-      <a href="mailto:kontakt@wojtekmaj.pl">kontakt@wojtekmaj.pl</a><br />
-      <a href="http://wojtekmaj.pl">http://wojtekmaj.pl</a>
+      Hoa Dang<br />
+      <a href="mailto:hoadv106@gmail.com">hoadv106@gmail.com</a><br />
     </td>
   </tr>
 </table>
 
 ## Thank you
 
-
-### Backers
-
-Thank you to all our backers! [Become a backer](https://opencollective.com/react-calendar#backer) and get your image on our README on GitHub.
 
 <a href="https://opencollective.com/react-calendar#backers" target="_blank"><img src="https://opencollective.com/react-calendar/backers.svg?width=890"></a>
 

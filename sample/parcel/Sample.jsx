@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Calendar from '../../dist/entry';
+import Calendar from 'short-react-calendar/dist/entry';
 
 import './Sample.less';
 
@@ -21,8 +21,6 @@ export default class Sample extends Component {
         <div className="Sample__container">
           <main className="Sample__container__content">
             <Calendar
-              onChange={this.onChange}
-              value={value}
               calendarType="US"
               oneWeekCalendar={true}
             />
