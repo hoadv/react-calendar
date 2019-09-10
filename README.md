@@ -3,7 +3,9 @@
 # Short-React-Calendar
 
 <div align="center">
-  <img width="436" heigth="398" src="https://wojtekmaj.home.pl/projekty/react-calendar/react-calendar.jpg">
+  <img width="436" heigth="221" src="https://firebasestorage.googleapis.com/v0/b/online-shopping-4dcd8.appspot.com/o/short%20react%20calendar.PNG?alt=media&token=b215daf3-5a49-4629-a19a-199c16d7cee3">
+  
+   <img width="462" heigth="371" src="https://firebasestorage.googleapis.com/v0/b/online-shopping-4dcd8.appspot.com/o/short%20react%20calendar%20expand.PNG?alt=media&token=b9955d8b-aa4b-49f7-b91b-8003c131d7eb">
 </div>
 
 Ultimate calendar for your React app.
@@ -127,7 +129,7 @@ Displays a complete, interactive calendar.
 |tileDisabled|Pass a function to determine if a certain day should be displayed as disabled.|n/a|<ul><li>Function: `({activeStartDate, date, view }) => date.getDay() === 0`</li></ul>|
 |value|Calendar value.|n/a|<ul><li>Date: `new Date()`</li><li>An array of dates: `[new Date(2017, 0, 1), new Date(2017, 7, 1)]`|
 |view|Determines which calendar view shall be opened initially. Does not disable navigation. Can be `"month"`, `"year"`, `"decade"` or `"century"`.|The most detailed view allowed|`"year"`|
-
+|oneWeekCalendar|Whether displaying one week calendar that contains current day, `"true"` or `"false"`.|The most detailed view allowed|`"false"`|
 ### MonthView, YearView, DecadeView, CenturyView
 
 Displays a given month, year, decade and a century, respectively.
@@ -166,11 +168,6 @@ The MIT License.
 
 ## Thank you
 
-### Sponsors
-
-Thank you to all our sponsors! [Become a sponsor](https://opencollective.com/react-calendar#sponsor) and get your image on our README on GitHub.
-
-<a href="https://opencollective.com/react-calendar#sponsors" target="_blank"><img src="https://opencollective.com/react-calendar/sponsors.svg?width=890"></a>
 
 ### Backers
 
